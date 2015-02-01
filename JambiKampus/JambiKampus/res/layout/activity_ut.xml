@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jambikampus.Ut" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="UNIVERSITAS TERBUKA"
+                android:textStyle="bold" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/guniter" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Universitas terbuka merupakan salah satu universitas yang berada di wilayah Kota Jambi, dimana universitas ini berada di jan Jendral Sudirman.
+                \nSUO (Sistem Ujian Online) Program Non Pendas pada UPBJJ-UT Jambi untuk masa 2015.1 dilaksanakan sebelum dan sesudah pelaksanaan Ujian Akhir Semester (UAS).
+
+Untuk SUO sebelum UAS (khusus untuk ujian ulang/ujul) dilaksanakan pada tanggal 23-27 Februari 2015.
+
+Untuk SUO sesudah UAS (khusus untuk ujian bentrok) dilaksanakan pada tanggal 18-22 Mei 2015.
+
+Ujian dilaksanakan sebanyak 3 (tiga) sesi. Sesi 1 dilaksanakan mulai pukul 08.00 WIB, Sesi 2 dilaksanakan mulai pukul 10.00 WIB dan untuk Sesi 3 dimulai pukul 13.30 WIB.
+
+Biaya mengikuti SUO adalah Rp 40.000,-/mata kuliah. Bagi mahasiswa peserta ujian diwajibkan untuk mengaktivasi layanan tutorial oline melalui situs http://student.ut.ac.id agar bisa melihat dan mendapatkan password ujian.
+
+Batas pendaftaran dan pembayaran SUO mengikuti kalender akademik ut (http://ut.ac.id/mahasiswa-dan-alumni/kalender-akademik.html)." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

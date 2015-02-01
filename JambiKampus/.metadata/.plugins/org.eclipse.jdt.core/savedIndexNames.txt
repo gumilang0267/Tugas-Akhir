@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+F:\FinalTask\JambiKampus\.metadata\.plugins\org.eclipse.jdt.core
+2929621293.index

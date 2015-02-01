@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jambikampus.Poltekes" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="POLITEKNIK KESEHATAN JAMBI"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/gpoltekes" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Poltekkes Jambi berdiri sejak tanggal 1 Januari 2002 berdasarkan Surat Keputusan Menteri Pendidikan Nasional No. 59123/MPN/2000 dan Surat Keputusan Menkes No. 298/Menkes/SK/IV/2001. Tanggal 16 April 2001.
+Poltekkes Jambi merupakan peleburan dari 4 (empat) Institusi Pendidikan bidang Kesehatan yang berkedudukan di kota Jambi, yaitu : Pendidikan Ahli Madya Keperawatan, Akademi
+Kebidanan, Akademi Kesehatan Lingkungan, dan Akademi Kesehatan Gigi. Dalam Kelembagaan Poltekkes Jambi keempat Institusi tersebut masing-masing menjadi : Jurusan
+Keperawatan, Jurusan Kebidanan, Jurusan Kesehatan Lingkungan, dan Jurusan Kesehatan Gigi.
+
+Alamat:
+
+Poltekkes Jambi\n
+Jl. H. Agus Salim No. 09 Kotabaru Jambi\n
+Telp. 0741-445450\n
+445579\n
+Program Studi:\n
+
+1. Jurusan Keperawatan Jambi\n
+2. Jurusan Kesehatan Lingkungan Jambi\n
+3. Jurusan Kesehatan Gigi Jambi\n
+4. Jurusan Kebidanan Jambi\n
+
+Fasilitas:\n
+SARANA DAN PRASARANA\n
+
+Polteknik Kesehatan Jambi dilengkapi dengan berbagai fasilitas dan sarana belajar, antara lain : Laboratorium untuk kegiatan praktek klinik keperawatan, perpustakaan, Laboratorium bahasa, Laboratorium Komputer. Berbagai alat bantu belajar seperti Over Head Projector (OHP), LCD Proyector dan peralatan Audio Visul lain (TV dan Video). - See more at: http://infopoltekkes.blogspot.com/2009/12/poltekkes-jambi.html#sthash.VUF8VM4T.dpuf" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

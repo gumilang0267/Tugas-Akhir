@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jambikampus.Stikes" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="STIKES JAMBI"
+                android:textStyle="bold" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/gstikba" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="STIKBA adalah sekolah tinggi ilmu kesehatan baiturrahim. Sebuah sekolah tinggi yang terletak di Provinsi Jambi, tepatnya di Kota Jambi. STIKBA merupakan salah satu kampus kesehatan yang ada di Provinsi Jambi. Adapun jurusan yang terdapat di STIKBA adalah S1 Ilmu Gizi, S1 Keperawatan, D3 Keperawatan, D3 Kebidanan, dan D3 Fisioterapi.
+Dulu STIKBA, dikenal juga dengan sebutan BR, adalah sebuah akademi keperawatan. Di tahun 2005 (kalau gak salah) berubah status menjadi sekolah tinggi. Ada begitu banyak kegiatan yang diadakan di sini, mulai dari kegiatan wajib, sampai ke kegiatan yang bersifat kemahasiswaan.
+Salah satu jurusan yang ada di STIKBA adalah S1 Ilmu Gizi. S1 Ilmu Gizi adalah sebuah jurusan yang mempelajari berbagai macam nilai gizi pada bahan makanan, mempelajari asuhan gizi klinik pada pasien, serta mempelajari teknologi dan rekayasa bahan makanan. Peningkatan jumlah mahasiswa dari tahun ke tahun mengalami peningkatan yang drastis. Pada awal tahun ajaran, jumlah mahasiswa gizi adalah sejumlah 11 orang, di tahun ke dua, jumlahnya meningkat hingga berjumlah 40 orang. di tahun ke tiga, berjumlah 60 orang dan sampai sekarang tetap bertahan 60 orang. Jurusan Ilmu Gizi hanya menerima mahasiswa sebanyak 60 orang. Dengan terbatasnya jumlah mahasiswanya,diharapkan agar mahasiswa tersebut benar-benar menjadi tenaga ahli yang profesional.
+Ada 3 fokus utama S1 Ilmu Gizi STIKBA Jambi, yaitu Asuhan Gizi Klinik, Ilmu Pangan, dan Gizi Masyarakat.
+Asuhan gizi klinik adalah sebuah pelajaran yang memfokuskan mahasiswanya untuk mendalami masalah penanganan asupan gizi pasien, baik yang berada di rumah sakit, puskesmas atau pun klinik, maupun asuhan rawat jalan. Pada fokus bagian ini, mahasiswa dituntut untuk mengetahui bagaimana diet pasien, mengetahui jalannya penyakit, hubungan makanan dengan proses penyembuhan makanan, dan lain-lain. Pada fokus bagian ini, mata kuliah pendukung yang harus di dalami adalah patofisiologi, sistem imun, diet penyakit menular maupun tidak menular, anatomi, biologi, matematika, dan fisika. 
+Ilmu pangan adalah sebuah pelajaran tentang berbagai macam bahan pangan, baik yang berskala besar maupun berskala kecil. Rekayasa bahan makanan, pengolahan bahan makanan, pengawasan mutu, dan lain-lain. Pada bagian ini, seorang ahli gizi dituntut untuk mengetahui bagaimana mempertahankan kadar kandungan gizi pada bahan makanan yang diolah agar tidak mengalami penyusutan maupun kehilangan zat gizi sehingga bahan makanan yang dikonsumsi tersebut dapat berguna bagi tubuh. Mata kuliah yang menunjang bagian ini adalah kimia, fisika, biologi, dan ilmu bahan makanan.
+Gizi masyarakat adalah salah satu pelajaran yang mempelajari tentang kondisi masyarakat mulai dari kalangan atas sampai kalangan bawah. Keadaan ekonomi, pendidikan masyarakat, hyegine dan sanitasi, keadaan bencana serta lingkungan tempat tinggal. Mata kuliah yang mendukung pada bagian ini adalah persebaran penyakit, ekonomi, biologi, serta lingkungan.
+Melihat begitu banyaknya peran serta seorang ahli gizi, maka Sekolah Tinggi Ilmu Kesehatan Baiturrahim (STIKBA) Jambi melihat perlunya mencetak tenaga ahli di bidang gizi." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

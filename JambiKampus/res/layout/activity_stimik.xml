@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jambikampus.Stimik" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="STIMIK NURDIN HAMZAH"
+                android:textStyle="bold" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/gedungstmik" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Sekolah Tinggi Manajemen Informatika dan Komputer (STMIK) Nurdin Hamzah Jambi didirikan pada tahun 1992. Semula STMIK Nurdin Hamzah Jambi didirikan dengan nama Akademik Manajemen Informatika dan Komputer (AMIK) Jambi yang waktu itu hanya membuka program Diploma III (D3) Manajemen Informatika. Dengan melihat kepada perkembangan pendidikan serta peluang yang ada maka tahun 1996 STMIK Nurdin Hamzah Jambi membuka program Strata-1 (S-1), jurusan Manajemen Informatika (sekarang Sistem Informasi). Saat ini STMIK Nurdin Hamzah Jambi terdiri dari 5 (lima) program studi yaitu Diploma III Sistem Komputer, Strata-1 Sistem Informasi dan Strata-1 Teknik Informasi yang memiliki 998 mahasiswa yang berasal dari berbagai daerah di Propinsi Jambi, dengan jumlah alumni lebih dari 3000. Hal ini merupakan suatu bukti bahwa STMIK Nurdin Hamzah Jambi merupakan salah satu pilihan utama bagi para pelajar yang akan melanjutkan ke jenjang pendidikan tinggi. Banyaknya program studi yang meliputi program Diploma III serta Strata-1 merupakan suatu tanda yang jelas akan komitmen penuh STMIK Nurdin Hamzah Jambi dalam meningkatkan kecerdasan bangsa. - See more at: http://my-mahasiswa.blogspot.com/2013/02/stmik-nurdin-hamzah-jambi.html#sthash.UMUCwsro.dpuf Copy and WIN : http://bit.ly/copynwin" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

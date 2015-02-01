@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JambiKampus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kategori">JambiKampus</string>
+    <string name="title_activity_galeri">JambiKampus</string>
+    <string name="title_activity_about">JambiKampus</string>
+    <string name="title_activity_umum">JambiKampus</string>
+    <string name="title_activity_komputer">JambiKampus</string>
+    <string name="title_activity_kesehatan">JambiKampus</string>
+    <string name="title_activity_unja">KampusJambi</string>
+    <string name="title_activity_iain">JambiKampus</string>
+    <string name="title_activity_ut">JambiKampus</string>
+    <string name="title_activity_stikom">JambiKampus</string>
+    <string name="title_activity_stimik">JambiKampus</string>
+    <string name="title_activity_poltekes">JambiKampus</string>
+    <string name="title_activity_akper">JambiKampus</string>
+    <string name="title_activity_stikes">JambiKampus</string>
+
+</resources>

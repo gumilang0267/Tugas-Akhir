@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jambikampus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Kategori"
+            android:label="@string/title_activity_kategori" >
+        </activity>
+        <activity
+            android:name=".Galeri"
+            android:label="@string/title_activity_galeri" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".Umum"
+            android:label="@string/title_activity_umum" >
+        </activity>
+        <activity
+            android:name=".Komputer"
+            android:label="@string/title_activity_komputer" >
+        </activity>
+        <activity
+            android:name=".Kesehatan"
+            android:label="@string/title_activity_kesehatan" >
+        </activity>
+        <activity
+            android:name=".Unja"
+            android:label="@string/title_activity_unja" >
+        </activity>
+        <activity
+            android:name=".Iain"
+            android:label="@string/title_activity_iain" >
+        </activity>
+        <activity
+            android:name=".Ut"
+            android:label="@string/title_activity_ut" >
+        </activity>
+        <activity
+            android:name=".Stikom"
+            android:label="@string/title_activity_stikom" >
+        </activity>
+        <activity
+            android:name=".Stimik"
+            android:label="@string/title_activity_stimik" >
+        </activity>
+        <activity
+            android:name=".Poltekes"
+            android:label="@string/title_activity_poltekes" >
+        </activity>
+        <activity
+            android:name=".Akper"
+            android:label="@string/title_activity_akper" >
+        </activity>
+        <activity
+            android:name=".Stikes"
+            android:label="@string/title_activity_stikes" >
+        </activity>
+    </application>
+
+</manifest>

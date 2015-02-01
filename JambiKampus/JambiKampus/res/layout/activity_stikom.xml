@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jambikampus.Stikom" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="STIKOM DINAMIKA BANGSA"
+                android:textStyle="bold" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/gedungstikom" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Stikom Dinamika Bangsa Jambi, merupakan salah satu universitas yang berbasiskan komputer di Kota Jambi. 
+                \nGagasan didirikannya Sekolah Tinggi Ilmu Komputer (STIKOM) Dinamika Bangsa didasari atas suatu pemikiran, bahwa kemajuan bangsa, khususnya daerah salah satunya  ditentukan oleh ketersediaan Sumber Daya Manusia (SDM) yang handal dengan penguasaan perangkat tekhnologi yang maju. Pada saat ini hampir diseluruh bidang pekerjaan sudah menggunakan tekhnologi komputer yang selalu berkembang sangat pesat, namun ketersediaan SDM untuk menanganinya masih sangat terbatas khususnya di daerah Jambi dan daerah-daerah lain di Indonesia pada umumnya.
+                Dengan dasar pemikiran seperti itulah Yayasan Dinamika Bangsa yang didirikan dengan Akta Notaris Nomor:16 tanggal 20 Juli 2001 , merasa terhimbau dan berketetapan hati untuk mendirikan Sekolah Tinggi Ilmu Komputer (STIKOM) Dinamika Bangsa. Sekolah Tinggi Ilmu Komputer (STIKOM) Dinamika Bangsa lahir dengan izin Menteri Pendidikan Nasional Republik Indonesia melalui Keputusan Direktur Jenderal Pendidikan Tinggi  (Dirjen Dikti) Nomor: 91/D/O/2002 tanggal 13 Mei 2002 .
+                " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
